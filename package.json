@@ -1,6 +1,6 @@
 {
-  "name": "node-require-context",
-  "version": "1.0.0",
+  "name": "@vdtn359/require-context",
+  "version": "1.0.1",
   "description": "same as webpack require.context，and can be used everywhere.",
   "main": "index.js",
   "repository": {
@@ -10,10 +10,13 @@
   "keywords": [
     "require.context"
   ],
-  "author": "Lang zi",
+  "author": "Lang zi/Tuan Nguyen",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/itlangzi/node-require-context/issues"
   },
-  "homepage": "https://github.com/itlangzi/node-require-context#readme"
+  "homepage": "https://github.com/itlangzi/node-require-context#readme",
+  "dependencies": {
+    "callsites": "^3.1.0"
+  }
 }
